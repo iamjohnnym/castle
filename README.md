@@ -10,31 +10,36 @@ Quick Overview of the project
 
 ## Installation
 
+
+# NOT AVAILABLE
 With PIP
 
-####bash
-#pip install castle
-####
+``bash
+pip install castle
+``
 
-From GitHub Gitlab
+From GitHub
 
-####bash
-#git clone git@github.com:john.martin/castle.git
-####
+```bash
+git clone git@github.com:john.martin/castle.git
+```
 
 ## Usage
 
 ### Invocation
 
-####python
+```python
 ## Steps to instantiate the code for initial use
-####
+```
 
 ### Testing
 
-####bash
-## Steps for testing the code
-####
+```bash
+# Steps for testing the code
+git clone git@github.com:john.martin/castle.git
+cd castle
+python -m unittest discover
+```
 
 ## Features
 
