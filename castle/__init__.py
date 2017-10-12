@@ -39,10 +39,12 @@ players = [
     }
 ]
 
-def load_players(players):
-    for player in players:
-        pass
 
+def load_players(players):
+    contenders = []
+    for player in players:
+        contenders.append(build_character(player))
+    return contenders
 
 def get_stat(player, stat, stat_type='stats'):
     return player[stat_type][stat]
@@ -66,23 +68,22 @@ def set_health(player, modifier=3):
 def get_current_stats(player):
     if player.has_key('current_stats'):
         return player['current_stats']
-    current_stats = player['current_stats'] = {}
+    current_stats = {}
+    current_stats['health'] = set_health(player)
+    return current_stats
 
 
 def build_character(player):
     stats = dict(
-        strength = get_strength(player),
-        constitution = get_constitution(player),
-        agility = get_agility(player)
+        strength=get_strength(player),
+        constitution=get_constitution(player),
+        agility=get_agility(player)
         )
-    
-    name = get_name(player)
-    current_stats = get_current_stats(player)
 
     character = dict(
-        stats = stats,
-        name = name,
-        current_stats = current_stats
+        stats=stats,
+        name=get_name(player),
+        current_stats=get_current_stats(player)
     )
     return character
 
