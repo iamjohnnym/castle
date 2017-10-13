@@ -1,5 +1,5 @@
-[![build status](https://github.com/iamjohnnym/castle/badges/master/build.svg)](https://github.com/iamjohnnym/castle/commits/master)
-[![coverage report](https://github.com/iamjohnnym/castle/badges/master/coverage.svg)](https://github.com/iamjohnnym/castle/commits/master)
+[![Build Status](https://travis-ci.org/iamjohnnym/castle.svg?branch=master)](https://travis-ci.org/iamjohnnym/castle)
+[![coverage report][![Coverage Status](https://coveralls.io/repos/github/iamjohnnym/castle/badge.svg?branch=master)](https://coveralls.io/github/iamjohnnym/castle?branch=master)
 
 # Battle-Royal
 ===================
