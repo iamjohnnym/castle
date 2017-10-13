@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/iamjohnnym/castle.svg?branch=master)](https://travis-ci.org/iamjohnnym/castle)
-[![coverage report][![Coverage Status](https://coveralls.io/repos/github/iamjohnnym/castle/badge.svg?branch=master)](https://coveralls.io/github/iamjohnnym/castle?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/iamjohnnym/castle/badge.svg?branch=master)](https://coveralls.io/github/iamjohnnym/castle?branch=master)
 
 # Battle-Royal
 ===================
