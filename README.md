@@ -1,5 +1,5 @@
-[![build status](https://github.com/john.martin/castle/badges/master/build.svg)](https://github.com/john.martin/castle/commits/master)
-[![coverage report](https://github.com/john.martin/castle/badges/master/coverage.svg)](https://github.com/john.martin/castle/commits/master)
+[![build status](https://github.com/iamjohnnym/castle/badges/master/build.svg)](https://github.com/iamjohnnym/castle/commits/master)
+[![coverage report](https://github.com/iamjohnnym/castle/badges/master/coverage.svg)](https://github.com/iamjohnnym/castle/commits/master)
 
 # Battle-Royal
 ===================
@@ -21,7 +21,7 @@ pip install castle
 From GitHub
 
 ```bash
-git clone git@github.com:john.martin/castle.git
+git clone git@github.com:iamjohnnym/castle.git
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ git clone git@github.com:john.martin/castle.git
 
 ```bash
 # Steps for testing the code
-git clone git@github.com:john.martin/castle.git
+git clone git@github.com:iamjohnnym/castle.git
 cd castle
 python -m unittest discover
 ```
@@ -57,4 +57,4 @@ Do your thing, make some MR's.
 
 Please toss up any bugs here:
 
-[Issues](https://github.com/john.martin/castle/issues)
+[Issues](https://github.com/iamjohnnym/castle/issues)
