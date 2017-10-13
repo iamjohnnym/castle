@@ -2,3 +2,5 @@ nose
 nose-cov
 bandit
 flake8
+python-coveralls
+codacy-coverage
