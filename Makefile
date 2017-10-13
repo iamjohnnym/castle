@@ -2,8 +2,8 @@ excludes = \*~ \*.pyc .cache/\* test_\* __pycache__/\*
 
 .PHONY: test
 test:
-	nosetests --with-cov --cov warrior_buddy
+	nosetests --with-cov --cov castle
 
 .PHONY: bandit
 bandit:
-	bandit -r warrior_buddy/
+	bandit -r castle/
